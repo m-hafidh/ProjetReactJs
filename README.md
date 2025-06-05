@@ -75,6 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Installation de tailwindcss
 npm install -D tailwindcss@3
+
 npx tailwindcss init
 
 # Configure your template paths
