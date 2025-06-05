@@ -83,21 +83,28 @@ npx tailwindcss init
 
 module.exports = {
   content: [
+  
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  
   theme: {
     extend: {},
+    
   },
+  
   plugins: [],
 }
 
 ## Add the Tailwind directives to your CSS (index.css)
 
 @tailwind base;
+
 @tailwind components;
+
 @tailwind utilities;
 
 ## Start your build process
 ## Run your build process with 
+
 npm run start.
 
